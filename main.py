@@ -47,23 +47,23 @@
 
 #3.Користувач вводить два числа та матем дію: + - * або / Залежно від введеної матем дії вивести результат
 
-try:
+#try:
 
-    num1 = int(input("Enter first number: "))
-    num2 = int(input("Enter second  number: "))
-    user_select = str(input("Enter match action: "))
-    math_action = ("Enter math action")
-    match math_action:
-        case '+':
-            print("num1 + num2")
-        case '-':
-            print("num1 - num2")
-        case '*':
-            print("num1 * num2")
-        case '/':
-            print("num1 / num2")
-        case _:
-            print("you entered something wrong")
-except Exception as e:
-    print(f"Error: {e}")
+    #num1 = int(input("Enter first number: "))
+    #num2 = int(input("Enter second  number: "))
+    #user_select = str(input("Enter match action: "))
+    #math_action = ("Enter math action")
+    #match math_action:
+        #case '+':
+            #print("num1 + num2")
+        #case '-':
+            #print("num1 - num2")
+        #case '*':
+            #print("num1 * num2")
+        #case '/':
+            #print("num1 / num2")
+        #case _:
+            #print("you entered something wrong")
+#except Exception as e:
+    #print(f"Error: {e}")
 
